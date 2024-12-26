@@ -1,7 +1,13 @@
 {
   "project": "Example",
   "plugins": [
-
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": ["edit","dev","live"],
+      "url": "/tools/sidekick/library.html",
+      "includePaths": ["**.docx**"]
+    },
     {
       "id": "tools",
       "title":"Tools",
@@ -13,6 +19,14 @@
       "environments":["edit"],
       "url":"https://www.youtube.com",
       "passReferrer": true
+    },
+    {
+      "containerId":"tools",
+      "id":"google",
+      "title": "Google",
+      "environments":["edit"],
+      "url":"https://www.google.com",
+      "passReferrer": false
     }
   ]
 
