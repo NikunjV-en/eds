@@ -27,6 +27,24 @@
       "environments":["edit"],
       "url":"https://www.google.com",
       "passReferrer": false
+    },
+    {
+      "id": "contact-us-palette",
+      "title": "Contact Us Palette",
+      "environments": ["edit","dev","live","preview"],
+      "url": "/tools/contactus/contactus.html",
+      "passConfig": true,
+      "passReferrer": true,
+      "isPalette": true,
+      "paletteRect": "top:50px;bottom:10px;right:10px;left:auto;width:400px;height:calc(100vh-60px)"
+    },
+    {
+      "id": "contact-us-page",
+      "title": "Contact Us Page",
+      "environments": ["edit","dev","live","preview"],
+      "url": "/tools/contactus/contactus.html",
+      "passConfig": true,
+      "passReferrer": true
     }
   ]
 
