@@ -1,0 +1,2 @@
+async function includeHTML(file) { try { const response = await fetch(file); if (!response.ok) throw new Error('Network response was not ok'); const content = await response.text(); document.getElementById('content').innerHTML = content; } catch (error) { console.error('Error fetching the HTML file:', error); } }
+includeHTML('./video1.html');
