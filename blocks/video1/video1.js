@@ -26,6 +26,7 @@ function displayModal() {
     const modal = document.getElementById('myModal'); if (!modal) { createModal(); } document.getElementById('myModal').style.display = 'block';
 }
 export default async function decorate(block) {
+    console.log("Inide decorate");
 // Create the container div 
 const mainContainer = document.createElement('div');
 const container = document.createElement('div'); 
