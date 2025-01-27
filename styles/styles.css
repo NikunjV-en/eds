@@ -219,7 +219,7 @@ button.secondary {
 
 main img {
   max-width: 100%;
-  width: auto;
+  width: 10vw;
   height: auto;
 }
 
@@ -262,3 +262,4 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+

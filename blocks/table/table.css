@@ -1,5 +1,6 @@
 .table {
     width: 100%;
+    /* height: 100vh; */
     overflow-x: auto;
   }
   
@@ -8,6 +9,20 @@
     max-width: 100%;
     border-collapse: collapse;
     font-size: var(--body-font-size-xs);
+  }
+
+  .table .img-fixed{
+    width:100px;
+    height: 100px;
+    object-fit: scale-down;
+  }
+
+  .table .red{
+    color:red;
+  }
+
+  .table .out-of-stock{
+    color: lightgray;
   }
   
   @media (width >= 600px) {
